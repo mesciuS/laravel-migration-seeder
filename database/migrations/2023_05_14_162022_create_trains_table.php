@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('company', 50);
             $table->string('arrival_station', 50);
             $table->string('departure_station', 50);
-            $table->dateTime('departure_time');
-            $table->dateTime('arrival_time');
+            // $table->dateTime('departure_time');
+            // $table->dateTime('arrival_time');
             $table->string('train_code', 5);
             $table->string('model', 50);
             $table->tinyInteger('number_of_cars')->nullable();
